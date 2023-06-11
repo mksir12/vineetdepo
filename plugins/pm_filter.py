@@ -1292,7 +1292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         elif query.data == "rendering_info":
          buttons = [[
-             InlineKeyboardButton('back', callback_data='about'
+             InlineKeyboardButton('back', callback_data='about')
         ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
