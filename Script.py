@@ -3,7 +3,7 @@ class script(object):
     
 Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
 
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ 🙂🙂 Mᴏᴠɪᴇs 😄
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ  Mᴏᴠɪᴇs 😄
 
 Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ ⚡️
 
@@ -25,7 +25,9 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/VINEET346">ʜᴇʀᴇ</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:
 - <a href="https://t.me/VINEET346">𓆩𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a></b>
-- <a href="https://t.me/VINEET346">oggy</a></b>"""
+- <a href="https://t.me/xax_ha_ha_l">𝙾𝙶𝙶𝚈 𝚇 𝙹𝙴𝚁𝚁𝚈</a></b>
+ᴀᴅᴅ ʙᴏᴛ ᴛᴏ ᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴛyᴩᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ⚡️
+"""
 
     
 
