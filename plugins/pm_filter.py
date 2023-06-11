@@ -1141,9 +1141,7 @@ elif query.data == "reqinfo":
 
  
 
-if elif query.data == "rendering_info":
 
-        await query.answer(text=script.RENDERING_TXT, show_alert=True)
 
     elif query.data == "sinfo":
 
@@ -1376,6 +1374,53 @@ if elif query.data == "rendering_info":
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
+        )
+        elif query.data == "rendering_info":
+
+        buttons = [[
+
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about')
+
+        ]]
+
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        await query.message.edit_text(
+
+            text="● ◌ ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ●"
+
+        )
+
+        await client.edit_message_media(
+
+            query.message.chat.id, 
+
+            query.message.id, 
+
+            InputMediaPhoto(random.choice(PICS))
+
+        )
+
+        await query.message.edit_text(
+
+            text=script.RENDERING_TXT,
+
+            reply_markup=reply_markup,
+
+            parse_mode=enums.ParseMode.HTML
+
         )
     elif query.data == "manuelfilter":
         buttons = [[
