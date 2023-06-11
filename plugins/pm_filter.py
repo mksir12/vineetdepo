@@ -1511,6 +1511,53 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        elif query.data == "pings":
+
+        buttons = [[
+
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help2')
+
+        ]]
+
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        await query.message.edit_text(
+
+            text="● ◌ ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ●"
+
+        )
+
+        await client.edit_message_media(
+
+            query.message.chat.id, 
+
+            query.message.id, 
+
+            InputMediaPhoto(random.choice(PICS))
+
+        )
+
+        await query.message.edit_text(
+
+            text=script.PINGS_TXT,
+
+            reply_markup=reply_markup,
+
+            parse_mode=enums.ParseMode.HTML
+
+        )
     
     elif query.data == "admin":
         buttons = [[
