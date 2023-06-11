@@ -1153,6 +1153,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+
+            text="● ◌ ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ●"
+
+        )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1175,24 +1192,43 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
+
         await query.message.edit_text(
+
             text="● ◌ ◌"
+
         )
+
         await query.message.edit_text(
+
             text="● ● ◌"
+
         )
+
         await query.message.edit_text(
+
             text="● ● ●"
+
         )
+
         await client.edit_message_media(
+
             query.message.chat.id, 
+
             query.message.id, 
+
             InputMediaPhoto(random.choice(PICS))
+
         )
+
         await query.message.edit_text(
+
             text=script.ALL_FILTERS.format(query.from_user.mention),
+
             reply_markup=reply_markup,
+
             parse_mode=enums.ParseMode.HTML
+
         )
 
     elif query.data == "global_filters":
@@ -1205,6 +1241,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+
+            text="● ◌ ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ●"
+
+        )
         await query.message.edit_text(
             text=script.GFILTER_TXT,
             reply_markup=reply_markup,
@@ -1224,6 +1277,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+
+            text="● ◌ ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ●"
+
+        )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1248,6 +1318,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+
+            text="● ◌ ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ◌"
+
+        )
+
+        await query.message.edit_text(
+
+            text="● ● ●"
+
+        )
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
