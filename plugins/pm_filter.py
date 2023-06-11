@@ -1309,6 +1309,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🎬', url=GRP_LNK),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🙈', callback_data='source')
         ],[
+            InlineKeyboardButton('🛰 ʀᴇɴᴅᴇʀɪɴɢ ɪɴꜰᴏ ☁️', callback_data='rendering_info')
+        ],[   
             InlineKeyboardButton('Hᴏᴍᴇ 🏡', callback_data='start'),
             InlineKeyboardButton('Sᴛᴀᴛᴜs 📶', callback_data='stats')
         ]]
