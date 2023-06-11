@@ -3,11 +3,11 @@ class script(object):
     
 Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
 
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ  Mᴏᴠɪᴇs 😄
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ 🙂🙂 Mᴏᴠɪᴇs 😄
 
 Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ ⚡️
 
-ᴍᴀɪɴᴛᴀɪɴ ʙy :  <a href="https://t.me/VINEET346">𓆩𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a></b> 💎</b>"""
+ᴍᴀɪɴᴛᴀɪɴ ʙy : <a href="https://t.me/VINEET346">𓆩𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a></b> 💎</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
