@@ -7,7 +7,7 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ  Mᴏᴠɪᴇs 😄
 
 Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ ⚡️
 
-ᴍᴀɪɴᴛᴀɪɴ ʙy : @VINEET346 💎</b>"""
+ᴍᴀɪɴᴛᴀɪɴ ʙy :  <a href="https://t.me/VINEET346">𓆩𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a></b> 💎</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
