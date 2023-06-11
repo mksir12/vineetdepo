@@ -24,8 +24,9 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/VINEET346">ʜᴇʀᴇ</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:
-- <a href="https://t.me/VINEET346">𓆩
-𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a></b>"""
+- <a href="https://t.me/VINEET346">𓆩𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a></b>
+- <a href="https://t.me/VINEET346">oggy</a></b>"""
+
     
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
