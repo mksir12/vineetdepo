@@ -87,14 +87,14 @@ async def video(client, message):
 #    await client.send_message(LOG_CHANNEL, A.format(message.from_user.mention, message.from_user.id)) 
         
 
-@Client.on_message(filters.command('song') & filters.text)
+@Client.on_message(filters.command('ssong') & filters.text)
 async def song(client, message):
     try:
        args = message.text.split(None, 1)[1]
     except:
-        return await message.reply("/song requires an argument.")
+        return await message.reply("/ssong requires an argument.")
     if args.startswith(" "):
-        await message.reply("/song requires an argument.")
+        await message.reply("/ssong requires an argument.")
         return ""
     pak = await message.reply('Downloading...')
     try:
@@ -119,7 +119,7 @@ async def song(client, message):
     await client.send_message(LOG_CHANNEL, A.format(message.from_user.mention, message.from_user.id)) 
     
 
-@Client.on_message(filters.command("song") & filters.group) 
+@Client.on_message(filters.command("ssong") & filters.group) 
 async def r_message(client, message):
     mention = message.from_user.mention
     buttons = [[
