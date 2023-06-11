@@ -8,7 +8,7 @@ import requests,os,wget
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
 from info import LOG_CHANNEL
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/+e_UqPGvuQ5E5NGU1')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/B_TOWN_22')]])
 A = """{} with user id:- {} used /saavn command."""
 B = """{} with user id:- {} used /vsaavn command."""
 
@@ -69,7 +69,7 @@ async def video(client, message):
     ffile = file.replace("mp3", "mp4")
     os.rename(file, ffile)
     buttons = [[
-        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/+e_UqPGvuQ5E5NGU1")
+        InlineKeyboardButton("JOIN MOVIES", url="https://t.me/kmcrp_movie")
     ]]                           
     await message.reply_video(
     video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @royal_engfield_bot_updates ",thumb=thumbnail,
@@ -87,14 +87,14 @@ async def video(client, message):
 #    await client.send_message(LOG_CHANNEL, A.format(message.from_user.mention, message.from_user.id)) 
         
 
-@Client.on_message(filters.command('ssong') & filters.text)
+@Client.on_message(filters.command('song') & filters.text)
 async def song(client, message):
     try:
        args = message.text.split(None, 1)[1]
     except:
-        return await message.reply("/ssong requires an argument.")
+        return await message.reply("/song requires an argument.")
     if args.startswith(" "):
-        await message.reply("/ssong requires an argument.")
+        await message.reply("/song requires an argument.")
         return ""
     pak = await message.reply('Downloading...')
     try:
@@ -123,7 +123,7 @@ async def song(client, message):
 async def r_message(client, message):
     mention = message.from_user.mention
     buttons = [[
-        InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/+8vZTQtzo0lBmNDY9')
+        InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/B_TOWN_22')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_text(START_MESSAGE.format(message.from_user.mention, message.chat.title),
