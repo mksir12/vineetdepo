@@ -1141,7 +1141,7 @@ elif query.data == "reqinfo":
 
  
 
-elif query.data == "rendering_info":
+if elif query.data == "rendering_info":
 
         await query.answer(text=script.RENDERING_TXT, show_alert=True)
 
