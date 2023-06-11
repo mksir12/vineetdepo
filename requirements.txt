@@ -12,3 +12,4 @@ pytz
 aiohttp
 
 googletrans
+gtts
