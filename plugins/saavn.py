@@ -8,7 +8,7 @@ import requests,os,wget
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
 from info import LOG_CHANNEL
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/B_TOWN_22')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝙾𝙶𝙶𝚈 𝚇 𝙹𝙴𝚁𝚁𝚈', url='https://t.me/xax_ha_ha_l')]])
 A = """{} with user id:- {} used /saavn command."""
 B = """{} with user id:- {} used /vsaavn command."""
 
@@ -72,7 +72,7 @@ async def video(client, message):
         InlineKeyboardButton("JOIN MOVIES", url="https://t.me/kmcrp_movie")
     ]]                           
     await message.reply_video(
-    video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @royal_engfield_bot_updates ",thumb=thumbnail,
+    video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - <a href='https://t.me/VINEET346'>𓆩𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a>",thumb=thumbnail,
     reply_markup=InlineKeyboardMarkup(buttons)
 )
     await message.reply_text(text="download mp3 song")
@@ -112,7 +112,7 @@ async def song(client, message):
     ffile = file.replace("mp4", "mp3")
     os.rename(file, ffile)
     await pak.edit('Uploading...')
-    await message.reply_audio(audio=ffile, title=sname, performer=ssingers,caption=f"[{sname}]({r['data']['results'][0]['url']}) - from saavn ",thumb=thumbnail)
+    await message.reply_audio(audio=ffile, title=sname, performer=ssingers,caption=f"[{sname}]({r['data']['results'][0]['url']}) - <a href='https://t.me/VINEET346'>𓆩𝐕 𝖎 𝐧 𝖊 𝖊 𝐭𓆪</a>",thumb=thumbnail)
     os.remove(ffile)
     os.remove(thumbnail)
     await pak.delete()
