@@ -1129,19 +1129,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
         else:
             await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
 
-    elif query.data == "reqinfo":
+elif query.data == "reqinfo":
+
         await query.answer(text=script.REQINFO, show_alert=True)
 
-   
-        
-    elif query.data == "minfo":
-        await query.answer(text=script.MINFO, show_alert=True)
-        
-        elif query.data == "rendering_info":
+       
 
-             await query.answer(text=script.RENDERING_TXT, show_alert=True)
+    elif query.data == "minfo":
+
+        await query.answer(text=script.MINFO, show_alert=True)
+
+ 
+
+elif query.data == "rendering_info":
+
+        await query.answer(text=script.RENDERING_TXT, show_alert=True)
 
     elif query.data == "sinfo":
+
         await query.answer(text=script.SINFO, show_alert=True)
 
     elif query.data == "start":
