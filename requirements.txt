@@ -10,3 +10,6 @@ git+https://github.com/Joelkb/cinemagoer
 datetime
 pytz
 aiohttp
+os
+re
+yt_dlp
