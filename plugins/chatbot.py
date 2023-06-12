@@ -10,7 +10,7 @@ from pyrogram import Client
 @Client.on_message(
     filters.command("hii")
 )
-async def hii(Client, message):
+if async def hii(Client, message):
     await koshik.edit_text("Not supported!")
         if not message.reply_to_message:
             return
