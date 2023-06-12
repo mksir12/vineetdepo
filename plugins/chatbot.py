@@ -10,8 +10,8 @@ from pyrogram import Client
 @Client.on_message(
     filters.command("hii")
 )
-if async def hii(Client, message):
-    await koshik.edit_text("Not supported!")
+   async def hii(Client, message):
+    
         if not message.reply_to_message:
             return
         if message.reply_to_message.from_user.id != (await pbot.get_me()).id:
