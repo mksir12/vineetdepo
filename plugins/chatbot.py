@@ -2,12 +2,12 @@
 # Created by :- @TheSOME1HING
 
 import requests
-from pyrogram import filters, Client
+from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.enums import ChatType
-from info import pbot
+from pyrogram import Client
 
-@pbot.on_message(~filters.bot & ~filters.me & filters.text)
+@Client.on_message(~filters.bot & ~filters.me & filters.text)
 async def chatbot(_:Client,message:Message):
     if message.chat.type!= ChatType.PRIVATE:
         if not message.reply_to_message:
