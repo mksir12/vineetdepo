@@ -8,10 +8,10 @@ from pyrogram.enums import ChatType
 from pyrogram import Client
 
 @Client.on_message(
-    filters.command("hi")
+    filters.command("hii")
 )
-async def chatbot(_:Client,message:Message):
-    if message.chat.type!= ChatType.PRIVATE:
+async def hii(Client, message):
+    await koshik.edit_text("Not supported!")
         if not message.reply_to_message:
             return
         if message.reply_to_message.from_user.id != (await pbot.get_me()).id:
