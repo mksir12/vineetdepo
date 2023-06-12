@@ -9,6 +9,7 @@ from pyrogram import Client
 
 @Client.on_message(
     filters.command("hi")
+)
 async def chatbot(_:Client,message:Message):
     if message.chat.type!= ChatType.PRIVATE:
         if not message.reply_to_message:
